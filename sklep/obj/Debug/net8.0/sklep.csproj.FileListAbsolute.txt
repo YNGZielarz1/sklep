@@ -1,0 +1,17 @@
+C:\Users\tymek\source\repos\sklep\sklep\bin\Debug\net8.0\sklep.exe
+C:\Users\tymek\source\repos\sklep\sklep\bin\Debug\net8.0\sklep.deps.json
+C:\Users\tymek\source\repos\sklep\sklep\bin\Debug\net8.0\sklep.runtimeconfig.json
+C:\Users\tymek\source\repos\sklep\sklep\bin\Debug\net8.0\sklep.dll
+C:\Users\tymek\source\repos\sklep\sklep\bin\Debug\net8.0\sklep.pdb
+C:\Users\tymek\source\repos\sklep\sklep\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\tymek\source\repos\sklep\sklep\obj\Debug\net8.0\sklep.csproj.AssemblyReference.cache
+C:\Users\tymek\source\repos\sklep\sklep\obj\Debug\net8.0\sklep.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tymek\source\repos\sklep\sklep\obj\Debug\net8.0\sklep.AssemblyInfoInputs.cache
+C:\Users\tymek\source\repos\sklep\sklep\obj\Debug\net8.0\sklep.AssemblyInfo.cs
+C:\Users\tymek\source\repos\sklep\sklep\obj\Debug\net8.0\sklep.csproj.CoreCompileInputs.cache
+C:\Users\tymek\source\repos\sklep\sklep\obj\Debug\net8.0\sklep.csproj.CopyComplete
+C:\Users\tymek\source\repos\sklep\sklep\obj\Debug\net8.0\sklep.dll
+C:\Users\tymek\source\repos\sklep\sklep\obj\Debug\net8.0\refint\sklep.dll
+C:\Users\tymek\source\repos\sklep\sklep\obj\Debug\net8.0\sklep.pdb
+C:\Users\tymek\source\repos\sklep\sklep\obj\Debug\net8.0\sklep.genruntimeconfig.cache
+C:\Users\tymek\source\repos\sklep\sklep\obj\Debug\net8.0\ref\sklep.dll

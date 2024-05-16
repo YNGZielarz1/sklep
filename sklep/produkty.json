@@ -1,0 +1,26 @@
+[
+  {
+    "Nazwa": "Telefon",
+    "Producent": "Samsung",
+    "Cena": 1500.00,
+    "Kategoria": "Elektronika",
+    "Ilość": 10,
+    "DataDostawy": "2024-05-14T12:00:00"
+  },
+  {
+    "Nazwa": "Laptop",
+    "Producent": "HP",
+    "Cena": 3000.00,
+    "Kategoria": "Elektronika",
+    "Ilość": 5,
+    "DataDostawy": "2024-05-13T10:00:00"
+  },
+  {
+    "Nazwa": "Koszula",
+    "Producent": "Zara",
+    "Cena": 100.00,
+    "Kategoria": "Odzież",
+    "Ilość": 20,
+    "DataDostawy": "2024-05-11T15:30:00"
+  }
+]
