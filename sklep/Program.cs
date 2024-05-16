@@ -43,7 +43,7 @@ class Program
     {
         Console.WriteLine("Witaj w sklepie!");
         Console.WriteLine("Dostępne produkty:");
-        List<Produkt> produkty = WczytajProduktyZPliku(@"C:\Users\tymek\source\repos\sklep\sklep\produkty.json");
+        List<Produkt> produkty = WczytajProduktyZPliku(@"produkty.json");
         if (produkty == null)
         {
             Console.WriteLine("Nie udało się wczytać produktów. Sklep jest chwilowo niedostępny.");
