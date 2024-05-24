@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
 
-class Produkt
+class Produkt//definiuje właściwości produktu w sklepe
 {
     public string Nazwa { get; set; }
     public string Producent { get; set; }
@@ -13,7 +13,7 @@ class Produkt
     public DateTime DataDostawy { get; set; }
 }
 
-class Zamówienie
+class Zamówienie//pokazuje w pliku zamówienie klienta
 {
     public Dictionary<Produkt, int> ListaProduktów { get; set; }
     public string Imię { get; set; }
@@ -23,7 +23,7 @@ class Zamówienie
     public string SposóbPłatności { get; set; } 
     public decimal KwotaCałkowita { get; set; }
 
-    public void ObliczKwotęCałkowitą()
+    public void ObliczKwotęCałkowitą()//metida oblicza całkowitą kwotę zamówienia i dodaje koszty dostawy i płatności
     {
         KwotaCałkowita = 0;
         foreach (var kvp in ListaProduktów)
@@ -37,9 +37,9 @@ class Zamówienie
     }
 }
 
-class Program
+class Program//zawiera metodę główną oraz inne metody pomocnicze 
 {
-    static void Main(string[] args)
+    static void Main(string[] args)//wyświetla powitanie i listę produktów, wczytuje produkty z pliku json, tworzy nowe zamówienie poprzez metodę "UtwórzNoweZamówienie", wyświetla szczegóły zamówienia, zapisuje zamówienia do pliku "zamowienia.json"
     {
         Console.WriteLine("Witaj w sklepie!");
         Console.WriteLine("Dostępne produkty:");
@@ -73,7 +73,7 @@ class Program
         }
     }
 
-    static List<Produkt> WczytajProduktyZPliku(string nazwaPliku)
+    static List<Produkt> WczytajProduktyZPliku(string nazwaPliku)//odczytuje zawartość pliku "produkty.json"
     {
         try
         {
